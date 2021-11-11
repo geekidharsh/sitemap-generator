@@ -1,0 +1,8 @@
+
+
+1. save file in a folder
+2. split incoming file by 50000 each into a dataframe
+2. create a file for each segment of 50k rows - sitemap
+3. for files less than 50000 rows or not in the multiple of 50000,
+    print the last file with remainder of the rows.
+4. we only need loc tag and last mod
