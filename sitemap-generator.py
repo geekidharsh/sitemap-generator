@@ -5,7 +5,7 @@
 
 import pandas as pd
 import os
-import datetime 
+import datetime
 from jinja2 import Template
 import gzip
 import time

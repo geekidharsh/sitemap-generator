@@ -1,8 +1,11 @@
 
-
-1. save file in a folder
-2. split incoming file by 50000 each into a dataframe
-2. create a file for each segment of 50k rows - sitemap
+1. save file in a folder - done
+2. split incoming file by 50000 each into a dataframe - done
+2. create a file for each segment of 50k rows - sitemap - done 
 3. for files less than 50000 rows or not in the multiple of 50000,
     print the last file with remainder of the rows.
-4. we only need loc tag and last mod
+4. we only need loc tag and last mod - done
+5. Add custom 'https'
+6. Add edge cases for more escape characters. 
+7. Cover support for different file types: .csv, xlsx, xls
+8. Cut and paste urls on to the front end of the site - backend parses the input into a csv.
